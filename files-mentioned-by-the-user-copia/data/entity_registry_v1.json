@@ -1,0 +1,411 @@
+{
+  "version": "entity-registry-v1",
+  "status": "manual_prevalidation",
+  "notes": "Registro modificabile per aggiungere, rinominare o disattivare partiti, ideologie e figure storiche. I valori sono su scala -1/+1 secondo gli assi: Economia, Autorità, Cultura, Geopolitica, Ambiente, Tecnologia, Uguaglianza, Giustizia. Questa versione è teorica: va validata con fonti esterne, revisione esperta e dati utenti.",
+  "disabled_entities": [
+    "Azione / Italia Viva",
+    "Comunismo autoritario",
+    "Fascismo / ultranazionalismo"
+  ],
+  "entities": [
+    {
+      "name": "Azione",
+      "category": "partito",
+      "axes": {
+        "Economia": 0.22,
+        "Autorità": -0.16,
+        "Cultura": -0.12,
+        "Geopolitica": -0.42,
+        "Ambiente": -0.18,
+        "Tecnologia": 0.34,
+        "Uguaglianza": -0.08,
+        "Giustizia": -0.08
+      },
+      "brief": "Area liberal-riformista ed europeista: competenza amministrativa, innovazione, mercato regolato e diritti civili pragmatici.",
+      "url": "https://www.azione.it/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Programma politico, comunicazione ufficiale, collocazione europea/liberale e confronto futuro con CHES/MARPOR."
+    },
+    {
+      "name": "Italia Viva",
+      "category": "partito",
+      "axes": {
+        "Economia": 0.26,
+        "Autorità": -0.18,
+        "Cultura": -0.18,
+        "Geopolitica": -0.38,
+        "Ambiente": -0.12,
+        "Tecnologia": 0.32,
+        "Uguaglianza": -0.04,
+        "Giustizia": -0.06
+      },
+      "brief": "Area liberal-riformista e centrista: europeismo, modernizzazione, crescita, garanzie individuali e istituzioni pragmatiche.",
+      "url": "https://www.italiaviva.it/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Programma politico, comunicazione ufficiale e confronto futuro con benchmark esterni."
+    },
+    {
+      "name": "+Europa",
+      "category": "partito",
+      "axes": {
+        "Economia": 0.18,
+        "Autorità": -0.42,
+        "Cultura": -0.52,
+        "Geopolitica": -0.78,
+        "Ambiente": -0.28,
+        "Tecnologia": 0.28,
+        "Uguaglianza": -0.18,
+        "Giustizia": -0.32
+      },
+      "brief": "Area liberal-progressista ed europeista: diritti civili, federalismo europeo, mercato regolato e garanzie individuali.",
+      "url": "https://piueuropa.eu/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Collocazione europeista/liberale, programmi ufficiali e futura calibrazione su fonti comparate."
+    },
+    {
+      "name": "Volt Italia",
+      "category": "partito",
+      "axes": {
+        "Economia": -0.08,
+        "Autorità": -0.34,
+        "Cultura": -0.48,
+        "Geopolitica": -0.82,
+        "Ambiente": -0.62,
+        "Tecnologia": 0.38,
+        "Uguaglianza": -0.34,
+        "Giustizia": -0.28
+      },
+      "brief": "Area paneuropea progressista: integrazione europea, sostenibilità, innovazione, diritti e governance transnazionale.",
+      "url": "https://www.voltitalia.org/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Manifesto paneuropeo, programmi ufficiali e futura calibrazione comparata."
+    },
+    {
+      "name": "Sinistra Italiana",
+      "category": "partito",
+      "axes": {
+        "Economia": -0.74,
+        "Autorità": -0.32,
+        "Cultura": -0.66,
+        "Geopolitica": -0.34,
+        "Ambiente": -0.72,
+        "Tecnologia": -0.32,
+        "Uguaglianza": -0.82,
+        "Giustizia": -0.46
+      },
+      "brief": "Area sinistra sociale: lavoro, redistribuzione, diritti, welfare, ambiente e critica delle disuguaglianze.",
+      "url": "https://sinistraitaliana.si/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Programmi, alleanze e futura calibrazione con Manifesto Project e CHES."
+    },
+    {
+      "name": "Europa Verde",
+      "category": "partito",
+      "axes": {
+        "Economia": -0.48,
+        "Autorità": -0.34,
+        "Cultura": -0.58,
+        "Geopolitica": -0.48,
+        "Ambiente": -0.96,
+        "Tecnologia": -0.48,
+        "Uguaglianza": -0.64,
+        "Giustizia": -0.38
+      },
+      "brief": "Area ecologista progressista: transizione verde, diritti, giustizia climatica e sostenibilità sociale.",
+      "url": "https://europaverde.it/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Programma ambientalista, famiglia verde europea e futura calibrazione comparata."
+    },
+    {
+      "name": "Noi Moderati",
+      "category": "partito",
+      "axes": {
+        "Economia": 0.34,
+        "Autorità": 0.24,
+        "Cultura": 0.34,
+        "Geopolitica": -0.02,
+        "Ambiente": 0.16,
+        "Tecnologia": 0.18,
+        "Uguaglianza": 0.22,
+        "Giustizia": 0.32
+      },
+      "brief": "Area moderata di centrodestra: impresa, famiglia, istituzioni, sicurezza e collocazione conservatrice europea.",
+      "url": "https://www.noimoderati.it/",
+      "source_label": "Sito ufficiale",
+      "evidence": "manual_v1",
+      "basis": "Programmi, alleanze parlamentari e futura calibrazione con dataset partiti."
+    },
+    {
+      "name": "Liberalismo sociale",
+      "category": "ideologia",
+      "axes": {
+        "Economia": -0.08,
+        "Autorità": -0.52,
+        "Cultura": -0.48,
+        "Geopolitica": -0.58,
+        "Ambiente": -0.34,
+        "Tecnologia": 0.24,
+        "Uguaglianza": -0.38,
+        "Giustizia": -0.36
+      },
+      "brief": "Diritti individuali, istituzioni liberali, welfare correttivo, pluralismo e apertura internazionale.",
+      "url": "https://it.wikipedia.org/wiki/Liberalismo_sociale",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Letteratura politica generale; da calibrare con revisione esperta."
+    },
+    {
+      "name": "Federalismo europeo",
+      "category": "ideologia",
+      "axes": {
+        "Economia": 0.02,
+        "Autorità": -0.22,
+        "Cultura": -0.34,
+        "Geopolitica": -0.92,
+        "Ambiente": -0.36,
+        "Tecnologia": 0.24,
+        "Uguaglianza": -0.18,
+        "Giustizia": -0.18
+      },
+      "brief": "Integrazione europea, sovranità condivisa, istituzioni sovranazionali e cittadinanza transnazionale.",
+      "url": "https://it.wikipedia.org/wiki/Federalismo_europeo",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Tradizione federalista europea e futura revisione bibliografica."
+    },
+    {
+      "name": "Cristianodemocrazia sociale",
+      "category": "ideologia",
+      "axes": {
+        "Economia": -0.16,
+        "Autorità": 0.16,
+        "Cultura": 0.34,
+        "Geopolitica": -0.18,
+        "Ambiente": -0.18,
+        "Tecnologia": 0.02,
+        "Uguaglianza": -0.18,
+        "Giustizia": 0.16
+      },
+      "brief": "Economia sociale di mercato, corpi intermedi, famiglia, welfare comunitario e moderazione istituzionale.",
+      "url": "https://it.wikipedia.org/wiki/Democrazia_cristiana",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Tradizione cristiano-democratica europea; da validare con fonti storiche e comparate."
+    },
+    {
+      "name": "Socialismo democratico",
+      "category": "ideologia",
+      "axes": {
+        "Economia": -0.78,
+        "Autorità": -0.26,
+        "Cultura": -0.54,
+        "Geopolitica": -0.42,
+        "Ambiente": -0.58,
+        "Tecnologia": -0.28,
+        "Uguaglianza": -0.84,
+        "Giustizia": -0.44
+      },
+      "brief": "Redistribuzione, democrazia, diritti sociali, lavoro, welfare e controllo pubblico dei settori strategici.",
+      "url": "https://it.wikipedia.org/wiki/Socialismo_democratico",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Letteratura politica generale; futura verifica su esperti e dati utenti."
+    },
+    {
+      "name": "Socialismo statalista autoritario",
+      "category": "ideologia",
+      "axes": {
+        "Economia": -0.94,
+        "Autorità": 0.78,
+        "Cultura": -0.16,
+        "Geopolitica": 0.12,
+        "Ambiente": -0.28,
+        "Tecnologia": -0.22,
+        "Uguaglianza": -0.82,
+        "Giustizia": 0.52
+      },
+      "brief": "Stato forte, economia pianificata, priorità collettiva e bassa tolleranza per conflitto istituzionale.",
+      "url": "https://it.wikipedia.org/wiki/Socialismo_di_Stato",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Categoria teorica meno sensazionalistica rispetto a etichette storiche dirette."
+    },
+    {
+      "name": "Ultranazionalismo autoritario",
+      "category": "ideologia",
+      "axes": {
+        "Economia": 0.12,
+        "Autorità": 0.94,
+        "Cultura": 0.92,
+        "Geopolitica": 0.98,
+        "Ambiente": 0.28,
+        "Tecnologia": 0.12,
+        "Uguaglianza": 0.78,
+        "Giustizia": 0.94
+      },
+      "brief": "Sovranità assoluta, ordine, identità nazionale esclusiva e forte centralizzazione dell'autorità.",
+      "url": "https://it.wikipedia.org/wiki/Ultranazionalismo",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Etichetta descrittiva e prudente per evitare risultati shock o moralmente ambigui."
+    },
+    {
+      "name": "Repubblicanesimo civico",
+      "category": "ideologia",
+      "axes": {
+        "Economia": -0.18,
+        "Autorità": -0.08,
+        "Cultura": -0.26,
+        "Geopolitica": -0.18,
+        "Ambiente": -0.16,
+        "Tecnologia": 0.04,
+        "Uguaglianza": -0.34,
+        "Giustizia": -0.22
+      },
+      "brief": "Dovere civico, istituzioni repubblicane, partecipazione, libertà come non-dominio e bene comune.",
+      "url": "https://it.wikipedia.org/wiki/Repubblicanesimo",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Tradizione repubblicana e futura validazione bibliografica."
+    },
+    {
+      "name": "Luigi Einaudi",
+      "category": "storico",
+      "axes": {
+        "Economia": 0.56,
+        "Autorità": -0.36,
+        "Cultura": -0.08,
+        "Geopolitica": -0.32,
+        "Ambiente": 0.08,
+        "Tecnologia": 0.14,
+        "Uguaglianza": 0.16,
+        "Giustizia": -0.08
+      },
+      "brief": "Liberalismo, responsabilità fiscale, istituzioni, europeismo e diffidenza verso concentrazioni arbitrarie di potere.",
+      "url": "https://it.wikipedia.org/wiki/Luigi_Einaudi",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Figura storica liberale italiana; valori da validare con fonti storiche primarie/secondarie."
+    },
+    {
+      "name": "Alcide De Gasperi",
+      "category": "storico",
+      "axes": {
+        "Economia": -0.08,
+        "Autorità": 0.08,
+        "Cultura": 0.24,
+        "Geopolitica": -0.44,
+        "Ambiente": 0.0,
+        "Tecnologia": 0.02,
+        "Uguaglianza": -0.16,
+        "Giustizia": 0.04
+      },
+      "brief": "Cristianodemocrazia, europeismo, ricostruzione istituzionale, moderazione e mediazione sociale.",
+      "url": "https://it.wikipedia.org/wiki/Alcide_De_Gasperi",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Figura storica italiana; pesi da validare con bibliografia e fonti politiche."
+    },
+    {
+      "name": "Norberto Bobbio",
+      "category": "storico",
+      "axes": {
+        "Economia": -0.34,
+        "Autorità": -0.48,
+        "Cultura": -0.42,
+        "Geopolitica": -0.26,
+        "Ambiente": -0.08,
+        "Tecnologia": -0.06,
+        "Uguaglianza": -0.58,
+        "Giustizia": -0.36
+      },
+      "brief": "Liberal-socialismo, democrazia, diritti, uguaglianza e difesa dello Stato di diritto.",
+      "url": "https://it.wikipedia.org/wiki/Norberto_Bobbio",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Pensiero politico e giuridico; da validare con testi e bibliografia."
+    },
+    {
+      "name": "John Maynard Keynes",
+      "category": "storico",
+      "axes": {
+        "Economia": -0.44,
+        "Autorità": -0.08,
+        "Cultura": -0.12,
+        "Geopolitica": -0.28,
+        "Ambiente": 0.0,
+        "Tecnologia": 0.12,
+        "Uguaglianza": -0.34,
+        "Giustizia": -0.08
+      },
+      "brief": "Intervento pubblico, stabilizzazione macroeconomica, piena occupazione e capitalismo regolato.",
+      "url": "https://it.wikipedia.org/wiki/John_Maynard_Keynes",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Pensiero economico; pesi politici approssimativi da validare."
+    },
+    {
+      "name": "Friedrich Hayek",
+      "category": "storico",
+      "axes": {
+        "Economia": 0.78,
+        "Autorità": -0.44,
+        "Cultura": 0.02,
+        "Geopolitica": -0.18,
+        "Ambiente": 0.26,
+        "Tecnologia": 0.26,
+        "Uguaglianza": 0.44,
+        "Giustizia": -0.08
+      },
+      "brief": "Mercato, ordine spontaneo, critica della pianificazione, libertà individuale e limiti al potere statale.",
+      "url": "https://it.wikipedia.org/wiki/Friedrich_von_Hayek",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Pensiero economico-politico; da validare con letteratura."
+    },
+    {
+      "name": "Hannah Arendt",
+      "category": "storico",
+      "axes": {
+        "Economia": -0.06,
+        "Autorità": -0.62,
+        "Cultura": -0.24,
+        "Geopolitica": -0.22,
+        "Ambiente": 0.0,
+        "Tecnologia": -0.12,
+        "Uguaglianza": -0.22,
+        "Giustizia": -0.32
+      },
+      "brief": "Antitotalitarismo, pluralità, libertà politica, spazio pubblico e responsabilità dell'azione.",
+      "url": "https://it.wikipedia.org/wiki/Hannah_Arendt",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Pensiero politico; da validare con testi e interpretazioni storiografiche."
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "category": "storico",
+      "axes": {
+        "Economia": 0.28,
+        "Autorità": -0.34,
+        "Cultura": 0.16,
+        "Geopolitica": -0.12,
+        "Ambiente": 0.0,
+        "Tecnologia": 0.02,
+        "Uguaglianza": 0.02,
+        "Giustizia": -0.04
+      },
+      "brief": "Liberalismo, democrazia, corpi intermedi, rischi della tirannia della maggioranza e libertà civica.",
+      "url": "https://it.wikipedia.org/wiki/Alexis_de_Tocqueville",
+      "source_label": "Wikipedia",
+      "evidence": "manual_v1",
+      "basis": "Pensiero politico classico; pesi interpretativi da validare."
+    }
+  ]
+}

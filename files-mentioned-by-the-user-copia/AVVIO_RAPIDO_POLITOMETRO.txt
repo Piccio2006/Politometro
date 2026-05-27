@@ -1,0 +1,27 @@
+Metodo consigliato:
+
+doppio clic su:
+
+Avvia_Politometro.command
+
+Se non parte, apri Terminale sul Mac, incolla tutto questo blocco e premi Invio:
+
+cd "/Users/giovannipiccioli/Documents/Codex/2026-05-25/files-mentioned-by-the-user-copia"
+export MPLCONFIGDIR="$PWD/.matplotlib-cache"
+.venv-politometro/bin/python -m http.server 7870 --bind 127.0.0.1 --directory "$PWD/dist"
+
+Poi apri:
+
+http://127.0.0.1:7870/
+
+Admin:
+
+http://127.0.0.1:7870/admin
+
+Per fermarlo:
+
+premi Ctrl+C nella finestra Terminale.
+
+Se la porta 7870 fosse occupata, cambia l'ultimo numero in 7871 e apri:
+
+http://127.0.0.1:7871/

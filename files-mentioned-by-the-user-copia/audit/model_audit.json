@@ -1,0 +1,1921 @@
+{
+  "model_version": "politometro-scientific-v5.1-coherence-audit",
+  "summary": {
+    "question_status_counts": {
+      "ok": 60,
+      "review": 0,
+      "critical": 0
+    },
+    "axis_coverage": [
+      {
+        "axis": "Economia",
+        "questions": 22
+      },
+      {
+        "axis": "Autorità",
+        "questions": 36
+      },
+      {
+        "axis": "Cultura",
+        "questions": 33
+      },
+      {
+        "axis": "Geopolitica",
+        "questions": 18
+      },
+      {
+        "axis": "Ambiente",
+        "questions": 7
+      },
+      {
+        "axis": "Tecnologia",
+        "questions": 15
+      },
+      {
+        "axis": "Uguaglianza",
+        "questions": 47
+      },
+      {
+        "axis": "Giustizia",
+        "questions": 19
+      }
+    ],
+    "v5_content_checks": {
+      "max_active_axes": 4,
+      "questions_with_primary_dominance_issue": 0,
+      "questions_with_loaded_language_markers": 0,
+      "questions_with_medium_or_high_complexity": 0,
+      "note": "Controlli euristici V5: servono per audit interno e non sostituiscono validazione psicometrica."
+    },
+    "quick_question_ids": [
+      "taxation",
+      "corporate_power",
+      "police_power",
+      "surveillance",
+      "free_speech",
+      "religion_state",
+      "gender_policy",
+      "abortion",
+      "immigration_policy",
+      "european_union",
+      "national_identity",
+      "war_peace",
+      "climate_policy",
+      "public_transport",
+      "ai_governance",
+      "data_privacy",
+      "education_merit",
+      "meritocracy",
+      "crime_sentencing",
+      "prison_model"
+    ],
+    "social_question_ids": [
+      "taxation",
+      "corporate_power",
+      "surveillance",
+      "free_speech",
+      "religion_state",
+      "gender_policy",
+      "immigration_policy",
+      "european_union",
+      "climate_policy",
+      "ai_governance",
+      "meritocracy",
+      "crime_sentencing"
+    ],
+    "calibration": {
+      "version": "politometro-scientific-v5.1-coherence-audit",
+      "status": "content_validity_v5_prevalidation",
+      "summary": "Modello multidimensionale trasparente, in fase di validazione empirica: V5 rafforza audit, dominanza degli assi primari, prudenza interpretativa e confronto spiegabile.",
+      "principles": [
+        "Una domanda deve avere un asse primario chiaro e pochi assi secondari.",
+        "Ogni domanda deve restare entro quattro assi attivi; se ne servono di più, va divisa in item separati.",
+        "L'asse principale deve restare dominante rispetto ai secondari, soprattutto nelle domande usate in modalità social e rapida.",
+        "I pesi secondari descrivono effetti teorici plausibili, non impressioni narrative o giudizi morali.",
+        "La modalità rapida copre tutti gli 8 assi con almeno due item informativi.",
+        "La modalità social usa 12 item: è pensata per condivisione, non per massima precisione.",
+        "Coerenza interna e affidabilità del risultato sono indicatori separati dal contenuto politico.",
+        "La validazione statistica richiede dati utenti, test-retest e benchmark esterni."
+      ],
+      "benchmarks": [
+        "CHES",
+        "Manifesto Project / MARPOR",
+        "V-Dem V-Party",
+        "ESS-style survey design"
+      ],
+      "limitations": [
+        "La calibrazione V5 è teorica e di contenuto: non sostituisce analisi fattoriale, test-retest o campioni normativi.",
+        "Partiti, ideologie e figure storiche sono prototipi interpretativi: il confronto è geometrico sugli assi, non identitario o morale.",
+        "Le correlazioni future vanno lette come segnali diagnostici aggregati, non come causalità o targeting individuale."
+      ]
+    },
+    "entity_registry": {
+      "path": "/Users/giovannipiccioli/Documents/Codex/2026-05-25/files-mentioned-by-the-user-copia/data/entity_registry_v1.json",
+      "loaded": true,
+      "custom_entities": 21,
+      "disabled_entities": [
+        "Azione / Italia Viva",
+        "Comunismo autoritario",
+        "Fascismo / ultranazionalismo"
+      ],
+      "version": "entity-registry-v1",
+      "status": "manual_prevalidation"
+    },
+    "questions_to_review": [],
+    "prototype_status": [
+      {
+        "group": "Ideologie",
+        "count": 28,
+        "status": "manual_v2_prevalidation",
+        "next_step": "Validare con letteratura politica, revisione esperta e dati utenti."
+      },
+      {
+        "group": "Partiti",
+        "count": 23,
+        "status": "manual_v2_prevalidation",
+        "next_step": "Calibrare con CHES, Manifesto Project, V-Party e programmi aggiornati."
+      },
+      {
+        "group": "Storici comparabili",
+        "count": 47,
+        "status": "interpretive_v2",
+        "next_step": "Validare per periodo, regime, asse economico e asse libertà/autorità."
+      },
+      {
+        "group": "Storici ad alto rischio interpretativo",
+        "count": 6,
+        "status": "caution",
+        "next_step": "Mostrare con avviso esplicito: distanza geometrica, non equivalenza morale o biografica."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "immigration_policy",
+      "question": "Quale politica migratoria preferisci?",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.645,
+      "dominance_ratio": 4.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 8.0
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "taxation",
+      "question": "Come dovrebbe funzionare la tassazione?",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.8,
+      "focus_ratio": 0.556,
+      "dominance_ratio": 1.25,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 4.7
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "welfare",
+      "question": "Quale ruolo dovrebbe avere il welfare pubblico?",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.7,
+      "focus_ratio": 0.588,
+      "dominance_ratio": 1.429,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 4.7
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "privatization",
+      "question": "Privatizzazioni dei servizi pubblici essenziali:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.2,
+      "focus_ratio": 0.833,
+      "dominance_ratio": 5.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 4.7
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "labor_market",
+      "question": "Mercato del lavoro:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Autorità",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.5,
+      "focus_ratio": 0.625,
+      "dominance_ratio": 2.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "minimum_wage",
+      "question": "Salario minimo:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.55,
+      "focus_ratio": 0.645,
+      "dominance_ratio": 1.818,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 4.6
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "property",
+      "question": "Proprietà privata dei grandi mezzi produttivi:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.45,
+      "focus_ratio": 0.69,
+      "dominance_ratio": 2.222,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 11,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "basic_income",
+      "question": "Reddito di base / sostegno economico pubblico:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.75,
+      "focus_ratio": 0.571,
+      "dominance_ratio": 1.333,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " / "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "public_debt",
+      "question": "Debito pubblico:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Autorità",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.75,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.625,
+      "dominance_ratio": 2.143,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.9
+      },
+      "discrimination_utility": 0.799,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "business_regulation",
+      "question": "Regolazione delle imprese:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Ambiente",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.75,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.536,
+      "dominance_ratio": 3.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 3.4
+      },
+      "discrimination_utility": 0.799,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "police_power",
+      "question": "Poteri di polizia:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.38,
+      "focus_ratio": 0.667,
+      "dominance_ratio": 2.632,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "surveillance",
+      "question": "Sorveglianza pubblica e telecamere intelligenti:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Tecnologia",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.625,
+      "dominance_ratio": 2.857,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.0
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "protest",
+      "question": "Proteste e disobbedienza civile:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.3,
+      "focus_ratio": 0.667,
+      "dominance_ratio": 3.333,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.6
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "military_service",
+      "question": "Servizio militare/civile obbligatorio:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Geopolitica"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.95,
+      "secondary_max_weight": 0.42,
+      "focus_ratio": 0.621,
+      "dominance_ratio": 2.262,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 5,
+        "avg_option_words": 3.3
+      },
+      "discrimination_utility": 0.88,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "drug_policy",
+      "question": "Droghe leggere:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.9,
+      "secondary_max_weight": 0.4,
+      "focus_ratio": 0.608,
+      "dominance_ratio": 2.25,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 3.9
+      },
+      "discrimination_utility": 0.86,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "free_speech",
+      "question": "Libertà di espressione e discorsi offensivi:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Tecnologia",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.607,
+      "dominance_ratio": 3.4,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.6
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "religion_state",
+      "question": "Religione e Stato:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.645,
+      "dominance_ratio": 4.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "family_policy",
+      "question": "Famiglia:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.714,
+      "dominance_ratio": 4.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 6.4
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "gender_policy",
+      "question": "Politiche di genere:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.667,
+      "dominance_ratio": 4.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.6
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "school_values",
+      "question": "Scuola pubblica:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.95,
+      "secondary_max_weight": 0.28,
+      "focus_ratio": 0.642,
+      "dominance_ratio": 3.393,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.88,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "european_union",
+      "question": "Unione Europea:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.15,
+      "focus_ratio": 0.87,
+      "dominance_ratio": 6.667,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 4.7
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "nato_defense",
+      "question": "NATO e difesa occidentale:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Autorità",
+        "Geopolitica",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.586,
+      "dominance_ratio": 2.429,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.4
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "trade_globalization",
+      "question": "Globalizzazione economica:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Economia",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.708,
+      "dominance_ratio": 3.4,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.1
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "climate_policy",
+      "question": "Politiche climatiche:",
+      "primary_axis": "Ambiente",
+      "active_axes": [
+        "Economia",
+        "Ambiente",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.2,
+      "focus_ratio": 0.69,
+      "dominance_ratio": 5.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 4.0
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "nuclear_energy",
+      "question": "Energia nucleare:",
+      "primary_axis": "Ambiente",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Ambiente",
+        "Tecnologia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.88,
+      "secondary_max_weight": 0.32,
+      "focus_ratio": 0.603,
+      "dominance_ratio": 2.75,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 4.6
+      },
+      "discrimination_utility": 0.851,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "animal_rights",
+      "question": "Diritti degli animali e allevamenti intensivi:",
+      "primary_axis": "Ambiente",
+      "active_axes": [
+        "Economia",
+        "Cultura",
+        "Ambiente",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.9,
+      "secondary_max_weight": 0.18,
+      "focus_ratio": 0.672,
+      "dominance_ratio": 5.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 5.0
+      },
+      "discrimination_utility": 0.86,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "ai_governance",
+      "question": "Governance dell'intelligenza artificiale:",
+      "primary_axis": "Tecnologia",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Tecnologia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.15,
+      "focus_ratio": 0.769,
+      "dominance_ratio": 6.667,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.4
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "data_privacy",
+      "question": "Dati personali e piattaforme digitali:",
+      "primary_axis": "Tecnologia",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Tecnologia",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.8,
+      "secondary_max_weight": 0.45,
+      "focus_ratio": 0.533,
+      "dominance_ratio": 1.778,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.819,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "crypto",
+      "question": "Criptovalute:",
+      "primary_axis": "Tecnologia",
+      "active_axes": [
+        "Economia",
+        "Autorità",
+        "Tecnologia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.92,
+      "secondary_max_weight": 0.18,
+      "focus_ratio": 0.754,
+      "dominance_ratio": 5.111,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 4.4
+      },
+      "discrimination_utility": 0.868,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "platform_censorship",
+      "question": "Moderazione dei social network:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Tecnologia",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.654,
+      "dominance_ratio": 3.4,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 3.7
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "education_merit",
+      "question": "Scuola e università: merito o inclusione?",
+      "primary_axis": "Uguaglianza",
+      "active_axes": [
+        "Economia",
+        "Autorità",
+        "Cultura",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.606,
+      "dominance_ratio": 2.857,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e ",
+          " o "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 4.1
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "healthcare",
+      "question": "Sanità:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.5,
+      "focus_ratio": 0.667,
+      "dominance_ratio": 2.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 5,
+        "avg_option_words": 3.3
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "housing",
+      "question": "Casa e affitti:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.6,
+      "focus_ratio": 0.625,
+      "dominance_ratio": 1.667,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 4.9
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "public_transport",
+      "question": "Mobilità urbana:",
+      "primary_axis": "Ambiente",
+      "active_axes": [
+        "Economia",
+        "Cultura",
+        "Ambiente",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.86,
+      "secondary_max_weight": 0.18,
+      "focus_ratio": 0.683,
+      "dominance_ratio": 4.778,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.6
+      },
+      "discrimination_utility": 0.843,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "crime_sentencing",
+      "question": "Pene per reati gravi:",
+      "primary_axis": "Giustizia",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.4,
+      "focus_ratio": 0.606,
+      "dominance_ratio": 2.5,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.1
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "prison_model",
+      "question": "Carcere:",
+      "primary_axis": "Giustizia",
+      "active_axes": [
+        "Autorità",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.645,
+      "dominance_ratio": 2.857,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "death_penalty",
+      "question": "Pena di morte:",
+      "primary_axis": "Giustizia",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.45,
+      "focus_ratio": 0.5,
+      "dominance_ratio": 2.222,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "elite_governance",
+      "question": "Governo delle élite:",
+      "primary_axis": "Uguaglianza",
+      "active_axes": [
+        "Autorità",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.28,
+      "focus_ratio": 0.714,
+      "dominance_ratio": 3.571,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 10,
+        "avg_option_words": 7.0
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "democracy",
+      "question": "Democrazia parlamentare:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Geopolitica",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.36,
+      "focus_ratio": 0.658,
+      "dominance_ratio": 2.778,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.4
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "referendum",
+      "question": "Referendum e democrazia diretta:",
+      "primary_axis": "Uguaglianza",
+      "active_axes": [
+        "Autorità",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.82,
+      "secondary_max_weight": 0.28,
+      "focus_ratio": 0.695,
+      "dominance_ratio": 2.929,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 12,
+        "avg_option_words": 5.6
+      },
+      "discrimination_utility": 0.827,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "national_identity",
+      "question": "Identità nazionale:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.48,
+      "focus_ratio": 0.562,
+      "dominance_ratio": 2.083,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 6,
+        "avg_option_words": 3.4
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "minorities",
+      "question": "Minoranze culturali e religiose:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.95,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.594,
+      "dominance_ratio": 2.714,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.7
+      },
+      "discrimination_utility": 0.88,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "abortion",
+      "question": "Aborto:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.625,
+      "dominance_ratio": 4.0,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 3.9
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "euthanasia",
+      "question": "Eutanasia e fine vita:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.9,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.643,
+      "dominance_ratio": 3.6,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.0
+      },
+      "discrimination_utility": 0.86,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "vaccines_public_health",
+      "question": "Vaccini e sanità pubblica obbligatoria:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Tecnologia",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.76,
+      "secondary_max_weight": 0.12,
+      "focus_ratio": 0.673,
+      "dominance_ratio": 6.333,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 4.7
+      },
+      "discrimination_utility": 0.803,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "pandemic_restrictions",
+      "question": "Restrizioni in caso di pandemia:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Tecnologia",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.88,
+      "secondary_max_weight": 0.15,
+      "focus_ratio": 0.698,
+      "dominance_ratio": 5.867,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 10,
+        "avg_option_words": 4.9
+      },
+      "discrimination_utility": 0.851,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "localism",
+      "question": "Comunità locali e autonomie:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.32,
+      "focus_ratio": 0.62,
+      "dominance_ratio": 2.656,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.4
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "urban_rural",
+      "question": "Modello di vita ideale:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Ambiente"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.86,
+      "secondary_max_weight": 0.32,
+      "focus_ratio": 0.662,
+      "dominance_ratio": 2.688,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 5,
+        "avg_option_words": 3.4
+      },
+      "discrimination_utility": 0.843,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "art_culture",
+      "question": "Arte e cultura pubblica:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.78,
+      "secondary_max_weight": 0.2,
+      "focus_ratio": 0.678,
+      "dominance_ratio": 3.9,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 11,
+        "avg_option_words": 5.0
+      },
+      "discrimination_utility": 0.811,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "food_identity",
+      "question": "Cibo e identità culturale:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Ambiente",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.78,
+      "secondary_max_weight": 0.32,
+      "focus_ratio": 0.586,
+      "dominance_ratio": 2.438,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.6
+      },
+      "discrimination_utility": 0.811,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "science_tradition",
+      "question": "Scienza, tradizione e decisioni pubbliche:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.85,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.62,
+      "dominance_ratio": 3.4,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.6
+      },
+      "discrimination_utility": 0.839,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "meritocracy",
+      "question": "Meritocrazia:",
+      "primary_axis": "Uguaglianza",
+      "active_axes": [
+        "Economia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 2,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.35,
+      "focus_ratio": 0.714,
+      "dominance_ratio": 2.857,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 12,
+        "avg_option_words": 6.7
+      },
+      "discrimination_utility": 1.0,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "inheritance",
+      "question": "Eredità e grandi patrimoni familiari:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Cultura",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.62,
+      "focus_ratio": 0.588,
+      "dominance_ratio": 1.613,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.9
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "international_aid",
+      "question": "Aiuti internazionali ai Paesi poveri:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Economia",
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.98,
+      "secondary_max_weight": 0.26,
+      "focus_ratio": 0.645,
+      "dominance_ratio": 3.769,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.4
+      },
+      "discrimination_utility": 0.892,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "war_peace",
+      "question": "Uso della forza militare all'estero:",
+      "primary_axis": "Geopolitica",
+      "active_axes": [
+        "Autorità",
+        "Geopolitica",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.88,
+      "secondary_max_weight": 0.36,
+      "focus_ratio": 0.603,
+      "dominance_ratio": 2.444,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 8,
+        "avg_option_words": 5.0
+      },
+      "discrimination_utility": 0.851,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "law_and_order",
+      "question": "Ordine pubblico in città:",
+      "primary_axis": "Giustizia",
+      "active_axes": [
+        "Autorità",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.46,
+      "focus_ratio": 0.61,
+      "dominance_ratio": 2.174,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 10,
+        "avg_option_words": 5.0
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "central_bank",
+      "question": "Banche centrali e politica monetaria:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Autorità",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.8,
+      "secondary_max_weight": 0.25,
+      "focus_ratio": 0.571,
+      "dominance_ratio": 3.2,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 7,
+        "avg_option_words": 4.4
+      },
+      "discrimination_utility": 0.819,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "corporate_power",
+      "question": "Potere delle grandi corporation:",
+      "primary_axis": "Economia",
+      "active_axes": [
+        "Economia",
+        "Cultura",
+        "Tecnologia",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 0.95,
+      "secondary_max_weight": 0.32,
+      "focus_ratio": 0.583,
+      "dominance_ratio": 2.969,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.1
+      },
+      "discrimination_utility": 0.88,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "public_order_vs_rights",
+      "question": "Quando sicurezza e diritti entrano in conflitto:",
+      "primary_axis": "Autorità",
+      "active_axes": [
+        "Autorità",
+        "Cultura",
+        "Uguaglianza",
+        "Giustizia"
+      ],
+      "active_axes_count": 4,
+      "max_weight": 1.0,
+      "secondary_max_weight": 0.42,
+      "focus_ratio": 0.61,
+      "dominance_ratio": 2.381,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "medio",
+        "double_barrel_markers": [
+          " e "
+        ],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 9,
+        "avg_option_words": 5.3
+      },
+      "discrimination_utility": 0.9,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    },
+    {
+      "id": "cultural_preservation",
+      "question": "Preservazione culturale vs apertura globale:",
+      "primary_axis": "Cultura",
+      "active_axes": [
+        "Cultura",
+        "Geopolitica",
+        "Uguaglianza"
+      ],
+      "active_axes_count": 3,
+      "max_weight": 0.9,
+      "secondary_max_weight": 0.55,
+      "focus_ratio": 0.562,
+      "dominance_ratio": 1.636,
+      "status": "ok",
+      "issues": [],
+      "content_risk": {
+        "emotional_bias_risk": "basso",
+        "loaded_terms": [],
+        "double_barrel_risk": "basso",
+        "double_barrel_markers": [],
+        "linguistic_complexity": "bassa",
+        "max_option_words": 10,
+        "avg_option_words": 6.9
+      },
+      "discrimination_utility": 0.86,
+      "suggestion": "Domanda utilizzabile: asse primario chiaro e buona concentrazione del peso."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Chapel Hill Expert Survey (CHES)",
+      "url": "https://www.chesdata.eu/",
+      "use": "Benchmark per partiti europei su sinistra-destra, GAL-TAN, UE, immigrazione e temi policy."
+    },
+    {
+      "name": "Manifesto Project / MARPOR",
+      "url": "https://manifesto-project.wzb.eu/",
+      "use": "Benchmark testuale sui programmi elettorali e sulle categorie di policy dei partiti."
+    },
+    {
+      "name": "V-Dem V-Party",
+      "url": "https://v-dem.net/vpartyds.html",
+      "use": "Benchmark esperto globale su identità, posizioni e organizzazione dei partiti."
+    },
+    {
+      "name": "Party Facts",
+      "url": "https://partyfacts.herokuapp.com/",
+      "use": "Ponte tra dataset diversi per identificare partiti e famiglie politiche."
+    },
+    {
+      "name": "European Social Survey (ESS)",
+      "url": "https://www.europeansocialsurvey.org/",
+      "use": "Riferimento per formulazione prudente di domande su atteggiamenti politici, immigrazione, fiducia e valori."
+    }
+  ]
+}
